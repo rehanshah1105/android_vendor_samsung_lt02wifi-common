@@ -20,7 +20,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/lt02wifi-common/proprietary/bin/sensord:system/bin/sensord \
     vendor/samsung/lt02wifi-common/proprietary/bin/appCoda7542Dec:system/bin/appCoda7542Dec \
     vendor/samsung/lt02wifi-common/proprietary/bin/appCoda7542Enc:system/bin/appCoda7542Enc \
-    vendor/samsung/lt02wifi-common/proprietary/bin/ppd_cmd:system/bin/ppd_cmd \
     vendor/samsung/lt02wifi-common/proprietary/bin/MarvellWirelessDaemon:system/bin/MarvellWirelessDaemon \
     vendor/samsung/lt02wifi-common/proprietary/bin/macloader:system/bin/macloader \
     vendor/samsung/lt02wifi-common/proprietary/bin/ddexe:system/bin/ddexe \
@@ -37,7 +36,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/lt02wifi-common/proprietary/bin/vdc:system/bin/vdc \
     vendor/samsung/lt02wifi-common/proprietary/bin/vcm:system/bin/vcm \
     vendor/samsung/lt02wifi-common/proprietary/bin/telmon:system/bin/telmon \
-    vendor/samsung/lt02wifi-common/proprietary/bin/smd:system/bin/smd \
     vendor/samsung/lt02wifi-common/proprietary/bin/serial_cfun0:system/bin/serial_cfun0 \
     vendor/samsung/lt02wifi-common/proprietary/bin/serial_client:system/bin/serial_client \
     vendor/samsung/lt02wifi-common/proprietary/bin/nvm:system/bin/nvm \
@@ -50,7 +48,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/lt02wifi-common/proprietary/bin/cploader:system/bin/cploader \
     vendor/samsung/lt02wifi-common/proprietary/bin/close_aud_path_fm.sh:system/bin/close_aud_path_fm.sh \
     vendor/samsung/lt02wifi-common/proprietary/bin/close_aud_path_hifi_headset.sh:system/bin/close_aud_path_hifi_headset.sh \
-    vendor/samsung/lt02wifi-common/proprietary/bin/cp:system/bin/cp \
     vendor/samsung/lt02wifi-common/proprietary/bin/dvfm_control.sh:system/bin/dvfm_control.sh \
     vendor/samsung/lt02wifi-common/proprietary/bin/eeh:system/bin/eeh \
     vendor/samsung/lt02wifi-common/proprietary/bin/exit_composite.sh:system/bin/exit_composite.sh \
@@ -69,7 +66,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/lt02wifi-common/proprietary/bin/open_aud_path_fm_headset.sh:system/bin/open_aud_path_fm_headset.sh \
     vendor/samsung/lt02wifi-common/proprietary/bin/open_aud_path_fm_speaker.sh:system/bin/open_aud_path_fm_speaker.sh \
     vendor/samsung/lt02wifi-common/proprietary/bin/open_aud_path_hifi_headset.sh:system/bin/open_aud_path_hifi_headset.sh \
-    vendor/samsung/lt02wifi-common/proprietary/bin/powerdaemon:system/bin/powerdaemon \
     vendor/samsung/lt02wifi-common/proprietary/bin/rem.sh:system/bin/rem.sh \
     vendor/samsung/lt02wifi-common/proprietary/bin/robust_btc.conf:system/bin/robust_btc.conf \
     vendor/samsung/lt02wifi-common/proprietary/bin/run_composite.sh:system/bin/run_composite.sh \
@@ -79,10 +75,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/lt02wifi-common/proprietary/bin/tel_launch.sh:system/bin/tel_launch.sh \
     vendor/samsung/lt02wifi-common/proprietary/bin/unload_8787.sh:system/bin/unload_8787.sh \
     vendor/samsung/lt02wifi-common/proprietary/bin/usr_path_ctrl:system/bin/usr_path_ctrl \
-    vendor/samsung/lt02wifi-common/proprietary/lib/egl/libEGL_MRVL.so:system/lib/egl/libEGL_MRVL.so \
-    vendor/samsung/lt02wifi-common/proprietary/lib/egl/libGLESv1_CM_MRVL.so:system/lib/egl/libGLESv1_CM_MRVL.so \
-    vendor/samsung/lt02wifi-common/proprietary/lib/egl/libGLESv2_MRVL.so:system/lib/egl/libGLESv2_MRVL.so \
-    vendor/samsung/lt02wifi-common/proprietary/lib/libGLESv2SC.so:system/lib/libGLESv2SC.so \
     vendor/samsung/lt02wifi-common/proprietary/lib/libGAL.so:system/lib/libGAL.so \
     vendor/samsung/lt02wifi-common/proprietary/lib/hw/audio.primary.mrvl.so:system/lib/hw/audio.primary.mrvl.so \
     vendor/samsung/lt02wifi-common/proprietary/lib/hw/audio_path.adda.mrvl.so:system/lib/hw/audio_path.adda.mrvl.so \
@@ -192,30 +184,16 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/lt02wifi-common/proprietary/lib/libacm.so:system/lib/libacm.so \
     vendor/samsung/lt02wifi-common/proprietary/lib/libAndroidEvent.so:system/lib/libAndroidEvent.so \
     vendor/samsung/lt02wifi-common/proprietary/lib/libHSV.so:system/lib/libHSV.so \
-    vendor/samsung/lt02wifi-common/proprietary/lib/libHWComposerGC.so:system/lib/libHWComposerGC.so \
     vendor/samsung/lt02wifi-common/proprietary/lib/libionhelper.so:system/lib/libionhelper.so \
     vendor/samsung/lt02wifi-common/proprietary/lib/libippimgp.so:system/lib/libippimgp.so \
     vendor/samsung/lt02wifi-common/proprietary/lib/libippsp.so:system/lib/libippsp.so \
     vendor/samsung/lt02wifi-common/proprietary/lib/libippvp.so:system/lib/libippvp.so \
     vendor/samsung/lt02wifi-common/proprietary/lib/libOrgan.so:system/lib/libOrgan.so \
-    vendor/samsung/lt02wifi-common/proprietary/lib/PowerDaemon/delegate_cpu.so:system/lib/PowerDaemon/delegate_cpu.so \
-    vendor/samsung/lt02wifi-common/proprietary/lib/PowerDaemon/delegate_ddr.so:system/lib/PowerDaemon/delegate_ddr.so \
-    vendor/samsung/lt02wifi-common/proprietary/lib/PowerDaemon/delegate_gpu.so:system/lib/PowerDaemon/delegate_gpu.so \
-    vendor/samsung/lt02wifi-common/proprietary/lib/PowerDaemon/delegate_shcmd.so:system/lib/PowerDaemon/delegate_shcmd.so \
-    vendor/samsung/lt02wifi-common/proprietary/lib/PowerDaemon/plugin_android.so:system/lib/PowerDaemon/plugin_android.so \
-    vendor/samsung/lt02wifi-common/proprietary/lib/PowerDaemon/plugin_camera.so:system/lib/PowerDaemon/plugin_camera.so \
-    vendor/samsung/lt02wifi-common/proprietary/lib/PowerDaemon/plugin_coda.so:system/lib/PowerDaemon/plugin_coda.so \
-    vendor/samsung/lt02wifi-common/proprietary/lib/PowerDaemon/plugin_input.so:system/lib/PowerDaemon/plugin_input.so \
-    vendor/samsung/lt02wifi-common/proprietary/lib/PowerDaemon/plugin_thermal.so:system/lib/PowerDaemon/plugin_thermal.so \
     vendor/samsung/lt02wifi-common/proprietary/lib/libPowerSetting.so:system/lib/libPowerSetting.so \
     vendor/samsung/lt02wifi-common/proprietary/lib/libparseTim.so:system/lib/libparseTim.so \
     vendor/samsung/lt02wifi-common/proprietary/lib/libSDRMInvLH.so:system/lib/libSDRMInvLH.so \
-    vendor/samsung/lt02wifi-common/proprietary/lib/hw/gralloc.mrvl.so:system/lib/hw/gralloc.mrvl.so \
     vendor/samsung/lt02wifi-common/proprietary/lib/hw/lights.mrvl.so:system/lib/hw/lights.mrvl.so \
-    vendor/samsung/lt02wifi-common/proprietary/lib/hw/hwcomposer.mrvl.so:system/lib/hw/hwcomposer.mrvl.so \
-    vendor/samsung/lt02wifi-common/proprietary/lib/libHWComposerGC.so:system/lib/libHWComposerGC.so \
     vendor/samsung/lt02wifi-common/proprietary/lib/libgcu.so:system/lib/libgcu.so \
-    vendor/samsung/lt02wifi-common/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/samsung/lt02wifi-common/proprietary/lib/libwvm.so:system/lib/libwvm.so \
     vendor/samsung/lt02wifi-common/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
     vendor/samsung/lt02wifi-common/proprietary/lib/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so \
